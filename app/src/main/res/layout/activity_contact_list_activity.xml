@@ -1,0 +1,71 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.patrick.buksms.ContactListActivity">
+    <TextView
+        android:id="@+id/textView_status"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="60dp"
+        android:layout_marginRight="10dp"
+        android:textSize="14dp"
+        android:text=""
+        android:visibility="visible"/>
+    <ProgressBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/view_progress"
+        android:layout_centerInParent="true"
+        android:visibility="invisible"/>
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/listView_contact"
+        android:layout_marginBottom="180dp"  >
+    </ListView>
+    <EditText
+        android:id="@+id/editText1"
+        android:layout_width="match_parent"
+        android:inputType="textMultiLine"
+        android:layout_height="100dp"
+        android:layout_alignParentBottom="true"
+        android:textSize="11sp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginBottom="55dp"
+        android:maxLength="160"
+        android:gravity="top"
+        android:singleLine="false"
+        android:padding="5dp"
+        android:hint="Send messages here ..."
+        android:scrollbars="vertical"
+      />
+    <TextView
+        android:id="@+id/textView_length"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:text="160"
+        android:layout_marginBottom="30dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:textSize="12dp"
+        />
+
+    <com.dd.CircularProgressButton
+        android:id="@+id/sendBtn"
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="30dp"
+        android:layout_marginBottom="10dp"
+        app:cpb_textComplete="Complete"
+        app:cpb_textError="Error"
+        app:cpb_textIdle="Send" />
+</RelativeLayout>

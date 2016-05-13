@@ -1,0 +1,104 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:fab="http://schemas.android.com/apk/res-auto"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:ppv="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:background="@color/background"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin" tools:context=".MainActivity">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/holo_red_dark"
+        android:id="@+id/textView_status_message"
+        android:textSize="30dp"
+        android:text=""
+        android:gravity="center"
+        android:layout_centerInParent="true"/>
+    <!--<com.filippudak.ProgressPieView.ProgressPieView-->
+        <!--android:layout_margin="8dp"-->
+        <!--android:layout_centerInParent="true"-->
+        <!--android:id="@+id/progressPieViewXml"-->
+        <!--android:layout_width="250dp"-->
+        <!--android:layout_height="250dp"-->
+        <!--android:layout_weight="1"-->
+        <!--android:textColor="@color/holo_orange_dark"-->
+        <!--android:textSize="12sp"-->
+        <!--android:text="Xml"-->
+        <!--ppv:ppvProgressFillType="layout_centerInParentcenter"-->
+        <!--ppv:ppvStrokeWidth="6dp"-->
+        <!--ppv:ppvStrokeColor="@color/holo_green_light"-->
+        <!--ppv:ppvBackgroundColor="#ffffff"-->
+        <!--ppv:ppvProgressColor="@color/holo_red_light"/>-->
+
+    <com.github.jlmd.animatedcircleloadingview.AnimatedCircleLoadingView
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/circle_loading_view"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:background="@color/background"
+        android:layout_centerInParent="true"
+        app:mainColor="@color/main_color"
+        app:secondaryColor="@color/secondary_color"
+        />
+
+    <!--<com.dd.ShadowLayout-->
+        <!--android:layout_marginTop="16dp"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--app:sl_shadowColor="#AA000000"-->
+        <!--app:sl_cornerRadius="2dp"-->
+        <!--android:layout_centerInParent="true">-->
+        <com.andexert.library.RippleView
+            android:id="@+id/more"
+
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:layout_margin="5dp"
+            android:layout_centerInParent="true"
+            rv_centered="true">
+        <ImageView
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:id="@+id/inboxBtn"
+            android:clickable="true"
+            android:background="@drawable/ic_launcher1"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"/>
+        </com.andexert.library.RippleView>
+    <!--</com.dd.ShadowLayout>-->
+    <ImageView
+        android:layout_width="250dp"
+        android:layout_height="90dp"
+        android:layout_centerInParent="true"
+        android:background="@drawable/logo"
+        android:id="@+id/image_logo"/>
+
+    <com.melnykov.fab.FloatingActionButton
+        android:id="@+id/fab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_margin="16dp"
+        android:src="@drawable/ic_add"
+
+        fab:fab_colorNormal="@color/primary"
+        fab:fab_colorPressed="@color/primary"
+        fab:fab_colorRipple="@color/ripple"
+
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Click to add list"
+        android:layout_marginTop="20dp"
+        android:textColor="@android:color/darker_gray"
+        android:layout_alignTop="@+id/fab"
+        android:layout_toLeftOf="@+id/fab"
+        android:layout_toStartOf="@+id/fab" />
+</RelativeLayout>

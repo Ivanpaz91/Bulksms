@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/home/sb/Documents/buksms/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="4486e953d1f35f8ccab098b1dd67146366d5f731">
+        <dex dex="/home/sb/Documents/buksms/app/build/intermediates/pre-dexed/debug/com.android.support-appcompat-v7-22.2.1_a1f616ffc0a5d23bfbb93107960f58721e980f4f.jar" />
+    </item>
+    <item
+        jar="/home/sb/.gradle/caches/modules-2/files-2.1/com.nineoldandroids/library/2.4.0/e9b63380f3a242dbdbf103a2355ad7e43bad17cb/library-2.4.0.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="e9b63380f3a242dbdbf103a2355ad7e43bad17cb">
+        <dex dex="/home/sb/Documents/buksms/app/build/intermediates/pre-dexed/debug/library-2.4.0_5883ad77e79cab6f5227846bef2eae2150019189.jar" />
+    </item>
+    <item
+        jar="/home/sb/Android/Sdk/extras/android/m2repository/com/android/support/support-annotations/22.2.1/support-annotations-22.2.1.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="61a0ff5c29295ec56d7e0bd3d25d95dbf71b4b2b">
+        <dex dex="/home/sb/Documents/buksms/app/build/intermediates/pre-dexed/debug/support-annotations-22.2.1_464512348b5406b9ef6152161ead83739036f68a.jar" />
+    </item>
+    <item
+        jar="/home/sb/.gradle/caches/modules-2/files-2.1/de.greenrobot/eventbus/3.0.0-beta1/d4a559b2dfb3e8a00ed37c440e118584f60db046/eventbus-3.0.0-beta1.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="d4a559b2dfb3e8a00ed37c440e118584f60db046">
+        <dex dex="/home/sb/Documents/buksms/app/build/intermediates/pre-dexed/debug/eventbus-3.0.0-beta1_2eec52dd8657c824f17c7168d794fd317cbf7c2b.jar" />
+    </item>
+    <item
+        jar="/home/sb/Documents/buksms/app/build/intermediates/exploded-aar/com.baoyz.swipemenulistview/library/1.3.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="8ec8378e8d7aa3104f60823e6350f2728d3609ba">
+        <dex dex="/home/sb/Documents/buksms/app/build/intermediates/pre-dexed/debug/com.baoyz.swipemenulistview-library-1.3.0_736bdad60e283aa7d4bc569787df91652af7f850.jar" />
+    </item>
+    <item
+        jar="/home/sb/Documents/buksms/app/libs/activeandroid-3.0.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="8cdfaba830e02c56967e946078b60fc476432f36">
+        <dex dex="/home/sb/Documents/buksms/app/build/intermediates/pre-dexed/debug/activeandroid-3.0_8b7f8e71cb349cffcddc6ee034334165fe676b36.jar" />
+    </item>
+    <item
+        jar="/home/sb/Documents/buksms/app/build/intermediates/exploded-aar/ru.bartwell/exfilepicker/1.8/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="8c245f6d2c41a0f04641eaf142cdf792ada9b721">
+        <dex dex="/home/sb/Documents/buksms/app/build/intermediates/pre-dexed/debug/ru.bartwell-exfilepicker-1.8_873d82ff0d9496514952b29df1706cc2ae026472.jar" />
+    </item>
+    <item
+        jar="/home/sb/Documents/buksms/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.1/jars/libs/internal_impl-22.2.1.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="c471eaaba13ff64f6e0383d1c30a9cdc9a97efeb">
+        <dex dex="/home/sb/Documents/buksms/app/build/intermediates/pre-dexed/debug/internal_impl-22.2.1_3f0ba5835050054fc3f04a00682b6c9458f624d1.jar" />
+    </item>
+    <item
+        jar="/home/sb/Documents/buksms/app/build/intermediates/exploded-aar/com.github.dmytrodanylyk.circular-progress-button/library/1.1.3/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="8a6ed980c74ad35b2dfc4e1daf97bfc0eea5d7c9">
+        <dex dex="/home/sb/Documents/buksms/app/build/intermediates/pre-dexed/debug/com.github.dmytrodanylyk.circular-progress-button-library-1.1.3_52a2722bb9ddfd91dc25ed99ed541ec223b970ad.jar" />
+    </item>
+    <item
+        jar="/home/sb/Documents/buksms/app/build/intermediates/exploded-aar/com.melnykov/floatingactionbutton/1.3.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="8c6ebb7d087d1a30bf84356bd2aecf85309fc024">
+        <dex dex="/home/sb/Documents/buksms/app/build/intermediates/pre-dexed/debug/com.melnykov-floatingactionbutton-1.3.0_1f23e741f7ae2b1ea8000115bd93865d0481f9dd.jar" />
+    </item>
+    <item
+        jar="/home/sb/Documents/buksms/app/build/intermediates/exploded-aar/com.avast/android-styled-dialogs/2.2.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="2b9373f04cbd55e4e207b05f52673da47bf69ee4">
+        <dex dex="/home/sb/Documents/buksms/app/build/intermediates/pre-dexed/debug/com.avast-android-styled-dialogs-2.2.0_9787ebc2fda3ce2a34d652e15c40e362868e06e3.jar" />
+    </item>
+    <item
+        jar="/home/sb/Documents/buksms/app/build/intermediates/exploded-aar/com.github.filippudak.progresspieview/library/1.0.4/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="0ce14614953d431cb3672b8ba3444837433b8c41">
+        <dex dex="/home/sb/Documents/buksms/app/build/intermediates/pre-dexed/debug/com.github.filippudak.progresspieview-library-1.0.4_64e7e579eadb5c44115f31d5742dfd504c3a8f4f.jar" />
+    </item>
+    <item
+        jar="/home/sb/Documents/buksms/app/build/intermediates/exploded-aar/com.github.dmytrodanylyk.shadow-layout/library/1.0.1/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="1c60de8bde1c6418e32a952b669df6975ff6fdca">
+        <dex dex="/home/sb/Documents/buksms/app/build/intermediates/pre-dexed/debug/com.github.dmytrodanylyk.shadow-layout-library-1.0.1_41cd0a376e2d851d91deb07a00c4b5d2465e5dae.jar" />
+    </item>
+    <item
+        jar="/home/sb/.gradle/caches/modules-2/files-2.1/com.opencsv/opencsv/3.5/2e88bd2818506573280599398f4198a04b2b2c8c/opencsv-3.5.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="2e88bd2818506573280599398f4198a04b2b2c8c">
+        <dex dex="/home/sb/Documents/buksms/app/build/intermediates/pre-dexed/debug/opencsv-3.5_dd6c09c84c805eeba6f5ec50289d2b7f81a9a8b2.jar" />
+    </item>
+    <item
+        jar="/home/sb/Documents/buksms/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/22.2.1/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="3abb4b88f5a8a0584a9b01d3170d7165f12f8588">
+        <dex dex="/home/sb/Documents/buksms/app/build/intermediates/pre-dexed/debug/com.android.support-recyclerview-v7-22.2.1_e1a3ee2ad1e40f490be38341e30449b0088e6868.jar" />
+    </item>
+    <item
+        jar="/home/sb/Documents/buksms/app/build/intermediates/exploded-aar/buksms/library/unspecified/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="b4e0048e9c8cb7ae83f8beb1c8a54065c8ca6d7a">
+        <dex dex="/home/sb/Documents/buksms/app/build/intermediates/pre-dexed/debug/buksms-library-unspecified_2d8ff66f9a71c7f30a737f27cf6a00dda60c481a.jar" />
+    </item>
+    <item
+        jar="/home/sb/Documents/buksms/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.1/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="f8efd0096475e0daf054267b61544e10dc776503">
+        <dex dex="/home/sb/Documents/buksms/app/build/intermediates/pre-dexed/debug/com.android.support-support-v4-22.2.1_70ec03fa57f57b94c99c064f73a0d64c4c6651da.jar" />
+    </item>
+    <item
+        jar="/home/sb/Documents/buksms/app/build/intermediates/exploded-aar/com.github.traex.rippleeffect/library/1.3/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="ee17feb34ce104bc17d1a1e64346d7f779ebb066">
+        <dex dex="/home/sb/Documents/buksms/app/build/intermediates/pre-dexed/debug/com.github.traex.rippleeffect-library-1.3_17a0ac1e2b32d32d34724a372a3e47987f281c7c.jar" />
+    </item>
+    <item
+        jar="/home/sb/.gradle/caches/modules-2/files-2.1/org.apache.commons/commons-lang3/3.3.2/90a3822c38ec8c996e84c16a3477ef632cbc87a3/commons-lang3-3.3.2.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="90a3822c38ec8c996e84c16a3477ef632cbc87a3">
+        <dex dex="/home/sb/Documents/buksms/app/build/intermediates/pre-dexed/debug/commons-lang3-3.3.2_871ab16376206763b14fc576f5789a453ad82696.jar" />
+    </item>
+
+</items>
